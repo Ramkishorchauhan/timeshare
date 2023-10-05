@@ -1,0 +1,40 @@
+.overview-section {margin-bottom: 1rem; } 
+.overview-item {position: relative; cursor: pointer; margin-bottom: 0; width: 100%; border-radius: 10px; padding: 10px; box-shadow: 0px 8px 13px rgb(0 0 0 / 5%); display: flex; align-items: center; background: #fff; } 
+.overview-item-content h2 {font-size: 22px; font-weight: 600; margin: 0; padding: 0; color: #455A64; } 
+.overview-item-content p {font-size: 12px; margin: 0; color: #9fb3c7; line-height: 24px; font-weight: normal; } 
+.overview-item-icon {width: 50px; height: 50px; text-align: center; border-radius: 20px; line-height: 50px; margin-left: auto; } 
+.overview-item-icon .iconsax svg {width: 36px; height: 36px; }
+.overview-item-icon .iconsax svg [stroke]{stroke:#0C8AFF; }
+.overview-item-icon .iconsax svg [fill]{fill:#0C8AFF; }
+
+
+
+.timeshare-card {position: relative; margin-bottom: 1rem; width: 100%; border-radius: 10px; box-shadow: 0px 8px 13px rgb(0 0 0 / 5%); background: #fff; }
+.timeshare-card-header {display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.5rem; border-bottom: 1px solid #eee; }
+.timeshare-card-heading h2{font-size: 16px; font-weight: 600; margin: 0; padding: 0; color: #263238; }
+.timeshare-card-body {padding: 1rem 1.5rem; }
+
+
+
+/******************    
+Total Timeshare Points Rented Across All Users
+*******************/
+.overview-points-section h2{font-size: 16px; font-weight: 600; margin: 0; padding: 0; color: #263238; }
+#TimesharePoints .item {padding: 15px 5px; }
+
+
+
+
+/******************    
+Help & Support query
+*******************/
+.timeshare-card-list {overflow: auto; height: 360px; position: relative; }
+.query-item {background: #FFFFFF; border-radius: 10px; display: flex; position: relative; padding: 10px; border: 1px solid #e7f3ff; align-items: center; margin-bottom: 10px; }
+.query-item-icon {width: 64px; height: 64px; background: #E7F3FF; text-align: center; line-height: 64px; border-radius: 50px; margin-right: 10px; }
+.query-item-icon .iconsax svg {width: 32px; height: 32px; }
+.query-item-icon .iconsax svg [stroke]{stroke:#0C8AFF; }
+.query-item-icon .iconsax svg [fill]{fill:#0C8AFF; }
+.query-item-content {flex: 1; } 
+.query-item-content h2 {font-size: 18px;font-weight: 600;margin: 0;padding: 0;color: #455A64;}
+.query-item-content p {font-size: 14px;margin: 0;color: #9fb3c7;line-height: 24px;font-weight: normal;} 
+

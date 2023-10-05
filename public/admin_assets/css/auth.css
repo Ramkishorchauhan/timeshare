@@ -1,0 +1,80 @@
+/*----------------------------
+         Add CSS file
+----------------------------*/
+@import "../plugins/bootstrap/css/bootstrap.min.css";
+@import '../plugins/Iconsax/iconsax.css';
+
+:root {
+    --Iconsax-Size:20px;
+    --Iconsax-Color:#9fb3c7;
+}
+
+/*----------------------------
+   element      
+----------------------------*/
+
+* {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+html { text-rendering: optimizeLegibility !important;-webkit-font-smoothing: antialiased !important;}
+*{margin:0; padding:0}
+a{ text-decoration:none; color: #1A46AB;}
+a:hover{ text-decoration:none !important;}
+header, nav, section, article, aside, footer { display:block;}
+html {font-size: 100%;}
+body {font-size: 12px; background:#FCFCFC;font-family: 'Roboto', sans-serif;line-height: 26px;color:#455A64;-webkit-font-smoothing: antialiased;font-weight: normal;}
+h1, h2, h3, h4, h5, h6 {padding: 5px 0 15px 0;color: #455A64;-webkit-font-smoothing: antialiased;}
+:-ms-input-placeholder{color: #000;}
+.wd10{width: 10%;}
+.wd20{width: 20%;}
+.wd30{width: 30%;}
+.wd40{width: 40%;}
+.wd50{width: 50%;}
+.wd60{width: 60%;}
+.wd70{width: 70%;}
+.wd80{width: 80%;}
+.wd90{width: 90%;}
+.wd100{width:100%;}
+
+/*/ width /
+::-webkit-scrollbar {width: 10px; }
+/ button /
+::-webkit-scrollbar-button {background: #222; }
+/ Handle /
+::-webkit-scrollbar-thumb {background: #333; }
+/ Handle on hover /
+::-webkit-scrollbar-thumb:hover {background: #666; }
+*/ /* width */
+::-webkit-scrollbar {width: 5px; height:5px; } 
+/* button */
+::-webkit-scrollbar-button {background: #f1f1f1; }
+/* Handle */
+::-webkit-scrollbar-thumb {background: #0c8aff; } 
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {background: #0c8aff; } 
+/* Track */
+::-webkit-scrollbar-track {background: #f1f1f1; }
+ /* The track NOT covered by the handle.
+::-webkit-scrollbar-track-piece {background: #000; } 
+/* Corner */
+::-webkit-scrollbar-corner {background: #f1f1f1; } 
+/* Resizer */
+::-webkit-resizer {background: #0c8aff; } 
+
+
+/*----------------------------
+   auth form      
+----------------------------*/
+
+.auth-section {background:url(../images/auth-bg.jpg);width: 100%;display: flex;align-items: center;justify-content: center;height: 100vh;background-size: cover;background-position: center;}
+.auth-btn:hover{box-shadow: none;}
+p.forgot-text {text-align: center; font-size: 14px; color: #003767; font-weight: bold; margin-bottom: 0; }
+
+.auth-form {padding: 2rem;background: rgb(255 255 255 / 99%);border-radius: 20px;box-shadow: 0px 4px 30px rgb(95 94 231 / 7%);position: relative;}
+.auth-form .brand-logo {margin-bottom: 2rem; text-align: center; } 
+.auth-form .brand-logo img {width: 150px; } 
+.auth-form .form-group {margin-bottom: 1.5rem; } 
+.auth-form input.form-control {background: transparent; border-radius: 5px; font-size: 13px; border: 1px solid #d2d8e5; font-weight: 400; height: auto; padding: 0.94rem 0.94rem; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; outline: 0; width: 100%; display: inline-block;}
+button.auth-form-btn {padding: 0.94rem 1.94rem;background: #0C8AFF;outline: none;font-size: 14px;border-radius: 5px;font-weight: bold;color: #fff;border: none;display: inline-block;width: 100%;box-shadow: 0 10px 20px #13307226;}
+
+.auth-form h2{font-size: 20px;font-weight: 600;padding: 0;color: #6c7383;text-align: center;}
+.auth-form p {font-size: 16px;margin: 0;color: #6c7383;line-height: 24px;font-weight: 300;text-align: center;}
+a.auth-link{font-size: 0.875rem; margin: 0; color: #6c7383; font-weight: normal; }

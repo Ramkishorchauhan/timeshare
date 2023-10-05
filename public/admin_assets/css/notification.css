@@ -1,0 +1,66 @@
+
+
+
+
+
+.timeshare-header {display: flex; align-items: center; justify-content: space-between; margin-bottom: 0; padding: 1rem 0; }
+h4.heading-title {font-size: 16px; font-weight: 600; margin: 0; padding: 0; }
+.ts-filter {margin-bottom: 0; text-align: right; /* background: #fff; */ /* padding: 10px; */ } 
+.ts-filter input.form-control {background: #fff; border-radius: 5px; font-size: 13px; border: 1px solid #d2d8e5; font-weight: 400; height: auto; padding: 9px 15px; /* box-shadow: 0 5px 13px rgb(240 240 241 / 46%); */ outline: 0; width: 100%; display: inline-block; color: #455A64; } 
+.ts-filter select.form-control {background: #fff; border-radius: 5px; font-size: 13px; border: 1px solid #d2d8e5; font-weight: 400; height: auto; padding: 9px 10px; /* box-shadow: 0 5px 13px rgb(240 240 241 / 46%); */ outline: 0; width: 100%; color: #455A64; appearance: revert; } 
+.ts-filter textarea.form-control {background: #fff; border-radius: 5px; font-size: 13px; border: 1px solid #d2d8e5; font-weight: 400; height: auto; padding: 0.8rem 0.94rem; box-shadow: 0 5px 13px rgb(240 240 241 / 46%); outline: 0; width: 100%; display: inline-block; color: #455A64; } 
+.ts-filter .form-control:focus {border: 1px solid #00ee57; box-shadow: none; } 
+.search-form-group {position: relative; } 
+.search-form-group input.form-control {position: relative; color: #455A64!important; border-radius: 5px; font-weight: 400; font-size: 13px; box-sizing: border-box; padding: 9px 15px 9px 40px; border: 1px solid #d2d8e5; width: 100%; } 
+.search-form-group input.form-control:focus {border: 1px solid #00ee57; box-shadow: none; }
+
+.search-form-group span.search-icon {position: absolute; top: 50%; left: 15px; pointer-events: none; transform: translateY(-50%) scaleX(-1); color: #ffcc00; font-size: 18px; }
+ a.Create-btn {text-align: center; padding: 8px 30px; color: #fff; font-size: 13px; font-weight: 500; display: inline-block; background: #4a95cf; box-shadow: 0px 4px 18px rgb(74 149 207 / 11%); border-radius: 5px; }
+
+.manage-notification-item {background: #FFFFFF; display: flex; align-items: center; box-shadow: 0px 8px 13px rgb(0 0 0 / 5%); padding:1rem; border-radius: 10px; position: relative; margin-bottom: 1rem; }
+.manage-notification-content {flex: 1; }
+.notification-descr{margin-bottom: 10px;}
+.notification-descr p {font-size: 14px; font-weight: normal; margin: 0; padding: 0; color: #455A64; line-height: normal; }
+
+.notification-tag h3 {font-size: 14px; font-weight: 600; margin: 0; padding: 0; color: #455A64; line-height: normal; }
+.tags-list {width: 100%; position: relative; margin-top: 10px; }
+.Tags-text {display: inline-block; border-radius: 50px; padding: 5px 15px; line-height: normal; font-size: 12px; color: #455A64; background: #fcfcfc; }
+
+.notification-date {font-size: 13px; margin: 0 0 10px 0; color: #9fb3c7; line-height: 24px; font-weight: normal; }
+
+.manage-notification-icon {width: 64px; height: 64px; background: #E7F3FF; text-align: center; line-height: 64px; border-radius: 50px; margin-right: 20px; } 
+.manage-notification-icon img {width: 32px; height: 32px; }
+
+
+
+
+.timeshare-modal-form h2 {font-size: 16px; font-weight: 600; margin: 0 0 1rem 0; padding: 0; text-align: center; }
+.timeshare-modal-form .form-group{margin-bottom: 1rem;}
+.timeshare-modal-form .form-group select.form-control {background: #fff; border-radius: 5px; font-size: 13px; border: 1px solid #e7e9eb; font-weight: 400; height: auto; padding: 10px 10px; box-shadow: 0 5px 13px rgb(240 240 241 / 46%); outline: 0; width: 100%; display: inline-block; color: #455A64; appearance: revert; }
+.timeshare-modal-form .form-group input.form-control {background: #fff; border-radius: 5px; font-size: 13px; border: 1px solid #e7e9eb; font-weight: 400; height: auto; padding: 10px 10px; box-shadow: 0 5px 13px rgb(240 240 241 / 46%); outline: 0; width: 100%; display: inline-block; color: #455A64; }
+.timeshare-modal-form .form-group textarea.form-control {background: #fff; border-radius: 5px; font-size: 13px; border: 1px solid #e7e9eb; font-weight: 400; height: auto; padding: 10px 10px; box-shadow: 0 5px 13px rgb(240 240 241 / 46%); outline: 0; width: 100%; display: inline-block; color: #455A64; }
+.timeshare-modal-form .form-group .form-control:focus {border: 1px solid #4a95cf; } 
+
+.cancel-btn{text-align: center;border: none; padding: 8px 30px; color: #fff; font-size: 13px; font-weight: 500; display: inline-block; background: #393738; box-shadow: 0px 4px 18px rgb(74 149 207 / 11%); border-radius: 5px; }
+.save-btn{text-align: center;border: none; padding: 8px 30px; color: #fff; font-size: 13px; font-weight: 500; display: inline-block; background: #4a95cf; box-shadow: 0px 4px 18px rgb(74 149 207 / 11%); border-radius: 5px; }
+
+
+.enrolled-list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.enrolled-list ul li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.enrolledcheckbox input[type=checkbox]+label{background-color:#fff;padding: 5px 10px 5px 10px;display:inline-block;position:relative;color: #333333;cursor: pointer; font-size: 13px;}
+.enrolledcheckbox input[type="checkbox"]{position:absolute;opacity:0;z-index:1}
+.enrolledcheckbox input[type=checkbox]+label{}
+.enrolledcheckbox input[type=checkbox]:checked+label:before{display:block}
+.enrolledcheckbox input[type=checkbox]+label:after {content: ' ';width: 100%;position: absolute;top: 0;left: 0;height: 100%;border: 1px solid transparent;box-shadow: 0 0 10px #efecec;border-radius: 5px;}
+.enrolledcheckbox input[type=checkbox]+label:before{content:' ';border-radius:5px;width: 100%;position:absolute;top:0;left:0;z-index:1;height: 100%;display:none;border: 1px solid #024c8f;display:none;}
+.enrolledcheckbox input[type=checkbox]:checked+label .order-type-text i {color: #1C2B53; border-color: #1C2B53; }
+.enrolledcheckbox input[type=checkbox]:checked+label .order-type-text {color: #1C2B53; }
